@@ -13,7 +13,7 @@ To run the Chat Documents application, follow these steps:
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/your-repository.git
+git clone [https://github.com/DorGetter/Chat_On_PDFs.git]
 ```
 
 2. Install the required dependencies. You can use pip to install them:
