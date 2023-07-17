@@ -60,7 +60,7 @@ def handle_user_input(user_query):
 
 def main():
     load_dotenv()
-    st.set_page_config(page_title="Chat Documents", page_icon=":books:")   
+    st.set_page_config(page_title="Chat Documents", page_icon=":notebook_with_decorative_cover:")   
 
     st.write(css, unsafe_allow_html=True)
     
@@ -69,8 +69,8 @@ def main():
     if 'chat_history' not in st.session_state:
         st.session_state.chat_history = None
 
-    st.header("Chat with multiple PDFS :books:")
-    user_question = st.text_input("Ask a question about your documents:")
+    st.header("Chat on PDFs :notebook:")
+    user_question = st.text_input("Ask a question about your documents: :writing_hand:")
 
     if user_question:
         handle_user_input(user_question)
@@ -80,7 +80,7 @@ def main():
         pdf_docs = st.file_uploader(
             "Upload your documents here and click on Process", accept_multiple_files=True)
         
-        if st.button("Process"):
+        if st.button("Process :mag_right:"):
             with st.spinner("Processing"): # user friendly message. 
                 
                 # get the pdf text:
