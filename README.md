@@ -2,6 +2,10 @@
 
 This is a repository for the Chat Documents application. The application allows users to chat with multiple PDF documents using conversational AI. The application is built using Streamlit and relies on various libraries and modules.
 
+![Image Description](./assets/app_ui.png)
+
+
+
 ## Installation
 
 To run the Chat Documents application, follow these steps:
